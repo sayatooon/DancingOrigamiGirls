@@ -65,7 +65,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 2:
             pose1[0] = pose1[1] = pose1[2] = SQUAT;
-            pose2[0] = pose2[1] = pose2[2] = STRECH;
+            pose2[0] = pose2[1] = pose2[2] = STRETCH;
             setPose(pose2);
             _led_normal = true;
             break;
@@ -81,7 +81,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 6:
         case 8:
         case 10:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             _led_normal = true;
             break;
@@ -110,7 +110,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 23:
         case 25:
             pose1[0] = pose1[2] = SQUAT;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             setPose(pose1);
             _led_normal = true;
             break;
@@ -118,7 +118,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 22:
         case 24:
         case 26:
-            pose1[0] = pose1[2] = STRECH;
+            pose1[0] = pose1[2] = STRETCH;
             pose1[1] = SQUAT;
             setPose(pose1);
             _led_normal = true;
@@ -145,7 +145,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 35:
             pose1[0] = pose1[1] = SQUAT;
-            pose1[2] = STRECH;
+            pose1[2] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -167,7 +167,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 36:
             pose1[0] = SQUAT;
-            pose1[1] = pose1[2] = STRECH;
+            pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -188,7 +188,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
 
             break;
         case 37:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -215,7 +215,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 39:
             pose1[0] = pose1[2] = SQUAT;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -237,7 +237,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 40:
             pose1[1] = pose1[2] = SQUAT;
-            pose1[0] = STRECH;
+            pose1[0] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -260,7 +260,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 41:
             pose1[0] = pose1[1] = SQUAT;
-            pose1[2] = STRECH;
+            pose1[2] = STRETCH;
             setPose(pose1);
 
             for (int i = 0; i < 10; i++)
@@ -291,7 +291,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             _led_normal = true;
             break;
         case 44:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             break;
         case 45:
@@ -303,7 +303,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             }
             FastLED.show();
             delay(460);
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             for (int i = 0; i < num; i++)
             {
@@ -321,7 +321,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             }
             FastLED.show();
             delay(460);
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             for (int i = 0; i < num; i++)
             {
@@ -331,7 +331,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             _led_normal = false;
             break;
         case 47:
-            pose1[1] = pose1[2] = STRECH;
+            pose1[1] = pose1[2] = STRETCH;
             pose1[0] = LEAN_L;
             setPose(pose1);
             for (int j = 0; j < (num - 1) / 2 - 2; j++)
@@ -349,7 +349,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
                 FastLED.show();
                 delay(11);
             }
-            pose1[2] = STRECH;
+            pose1[2] = STRETCH;
             pose1[0] = pose1[1] = LEAN_L;
             setPose(pose1);
             for (int j = 0; j < (num - 1) / 2 - 2; j++)
@@ -537,13 +537,13 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 57:
         case 61:
             pose1[0] = pose1[1] = pose1[2] = LEAN_L;
-            pose2[0] = pose2[1] = pose2[2] = STRECH;
+            pose2[0] = pose2[1] = pose2[2] = STRETCH;
             setMove(pose1, pose2, 700, 70);
             _led_normal = true;
             break;
         case 58:
         case 62:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             pose2[0] = pose2[1] = pose2[2] = LEAN_R;
             setMove(pose1, pose2, 700, 70);
             _led_normal = true;
@@ -568,14 +568,14 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 66:
         case 68:
             pose1[0] = pose1[1] = pose1[2] = LEAN_L;
-            pose2[0] = pose2[1] = pose2[2] = STRECH;
+            pose2[0] = pose2[1] = pose2[2] = STRETCH;
             setMove(pose1, pose2, 350, 35);
             for (int i = 0; i < num; i++)
             {
                 led[i] = CRGB(random(256), random(256), random(256));
             }
             FastLED.show();
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             pose2[0] = pose2[1] = pose2[2] = LEAN_R;
             setMove(pose1, pose2, 350, 35);
             _led_normal = true;
@@ -584,14 +584,14 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 71:
         case 73:
             pose1[0] = pose1[1] = pose1[2] = LEAN_R;
-            pose2[0] = pose2[1] = pose2[2] = STRECH;
+            pose2[0] = pose2[1] = pose2[2] = STRETCH;
             setMove(pose1, pose2, 350, 35);
             for (int i = 0; i < num; i++)
             {
                 led[i] = CRGB(random(256), random(256), random(256));
             }
             FastLED.show();
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             pose2[0] = pose2[1] = pose2[2] = LEAN_L;
             setMove(pose1, pose2, 350, 35);
             _led_normal = true;
@@ -615,7 +615,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 75:
             pose1[0] = pose1[1] = pose1[2] = LEAN_R;
             pose2[1] = pose2[2] = LEAN_R;
-            pose2[0] = STRECH;
+            pose2[0] = STRETCH;
             setMove(pose1, pose2, 350, 35);
             for (int i = 0; i < num; i++)
             {
@@ -623,7 +623,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             }
             FastLED.show();
             pose1[0] = LEAN_L;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             pose1[2] = LEAN_R;
             setMove(pose2, pose1, 400, 40);
             _led_normal = true;
@@ -633,10 +633,10 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 80:
         case 82:
             pose1[0] = LEAN_L;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             pose1[2] = LEAN_R;
             pose2[1] = LEAN_L;
-            pose2[2] = STRECH;
+            pose2[2] = STRETCH;
             pose2[0] = SQUAT;
             setMove(pose1, pose2, 350, 35);
             for (int i = 0; i < num; i++)
@@ -657,7 +657,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             pose1[0] = LEAN_R;
             pose1[1] = SQUAT;
             pose2[1] = LEAN_R;
-            pose2[0] = STRECH;
+            pose2[0] = STRETCH;
             pose2[2] = SQUAT;
             setMove(pose1, pose2, 350, 35);
             for (int i = 0; i < num; i++)
@@ -667,7 +667,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             FastLED.show();
             pose1[0] = LEAN_L;
             pose1[2] = LEAN_R;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             setMove(pose2, pose1, 350, 35);
             _led_normal = true;
             break;
@@ -678,7 +678,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
         case 84:
         case 86:
             pose1[0] = LEAN_L;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             pose1[2] = LEAN_R;
             setPose(pose1);
 
@@ -720,7 +720,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             _led_normal = true;
             break;
         case 88:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             _led_normal = true;
             break;
@@ -762,7 +762,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
 
         case 93:
-            pose1[0] = pose1[1] = pose1[2] = STRECH;
+            pose1[0] = pose1[1] = pose1[2] = STRETCH;
             setPose(pose1);
             for (int i = 0; i < num; i++)
             {
@@ -785,7 +785,7 @@ int Dancing::updateDance(unsigned long time, int last_beats, CRGB *led, uint8_t 
             break;
         case 94:
             pose1[0] = LEAN_L;
-            pose1[1] = STRECH;
+            pose1[1] = STRETCH;
             pose1[2] = LEAN_R;
             setPose(pose1);
             _led_normal = true;

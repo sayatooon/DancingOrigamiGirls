@@ -8,8 +8,8 @@
 #define SQUAT 1
 #define LEAN_R 2
 #define LEAN_L 3
-#define BEND_R 4
-#define BEND_L 5
+//#define BEND_R 4
+//#define BEND_L 5
 #define STRECH 6
 
 // debut song
