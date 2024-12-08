@@ -10,7 +10,7 @@
 #define LEAN_L 3
 //#define BEND_R 4
 //#define BEND_L 5
-#define STRECH 6
+#define STRETCH 6
 
 // debut song
 #define SONG_SIZE 95
